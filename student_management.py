@@ -270,7 +270,7 @@ def filter_by_district():
     
     if filtered_district:
         print(f"  {'ID':<10}{'Name':<30}{'Age':<5}{'Degree':<10}{'GPA':<5}{'Contact Number':<17}{'Email':<22}{'District':<15}")
-        print("-" * 85)
+        print("-" * 114)
         for student in filtered_district:
             # If there are data in filtered_district, print students data.
             print(f"  {student['id']:<10}{student['name']:<30}{student['age']:<5}{student['degree']:<10}{student['gpa']:<5}{student['contactInfo']:<17}{student['email']:<22}{student['district']:<15}")
