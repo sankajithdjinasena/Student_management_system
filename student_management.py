@@ -244,7 +244,7 @@ def filter_by_degree():
     print("-" * 114)
     # Get user input for flter data by Course Code
     print("\tDegree programs are: CDS/CSE/CIS")
-    degree = input("\tEnter the Degree to search for: ").strip()
+    degree = input("\tEnter the Degree Code to search for: ").strip()
     print("\n")
     # Checking the similar data for entered Course cod and make a new list called filtered_course
     filtered_degree = [student for student in students if student['degree'].upper() == degree.upper()]
